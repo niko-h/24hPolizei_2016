@@ -1,5 +1,93 @@
 [
   {
+    "bezirk": "Biesdorf",
+    "text": "Aufbruch der Hintertür in #Biesdorf. Die Anruferin kommt fast um vor Angst, weil Sie nicht weiß, ob der Täter noch im Haus ist. #24hPolizei",
+    "hashtags": "Biesdorf;24hPolizei",
+    "time": "20160527225549",
+    "id": 736330093514067968,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736330093514067968"
+  },
+  {
+    "bezirk": "Charlottenburg",
+    "text": "Es lärmt in einem Eckhaus in #Charlottenberg. #24hPolizei",
+    "hashtags": "Charlottenberg;24hPolizei",
+    "time": "20160527225304",
+    "id": 736329401038704640,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736329401038704640"
+  },
+  {
+    "bezirk": "Pankow",
+    "text": "In #Pankow steht ein  Mann mit  einem Messer auf dem Bahnsteig. Wir fahren hin. #24hPolizei",
+    "hashtags": "Pankow;24hPolizei",
+    "time": "20160527225251",
+    "id": 736329348781899777,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736329348781899777"
+  },
+  {
+    "bezirk": "Steglitz",
+    "text": "Ein Türschloss ist defekt. Verdacht eines Einbruchs in #Steglitz. #24hPolizei",
+    "hashtags": "Steglitz;24hPolizei",
+    "time": "20160527225233",
+    "id": 736329273758322688,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736329273758322688"
+  },
+  {
+    "bezirk": "AltTreptow",
+    "text": "In #Treptow helfen wir jetzt einer Hebamme. Sie muss dringend zu einer Entbindung. Leider ist ihr Auto zugeparkt. #24hPolizei",
+    "hashtags": "Treptow;24hPolizei",
+    "time": "20160527225050",
+    "id": 736328841967374336,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736328841967374336"
+  },
+  {
+    "bezirk": "Charlottenburg",
+    "text": "In #PrenzlauerBerg und #Charlottenburg werden uns zwei verdächtige Autos gemeldet. Beide werden überprüft. #24hPolizei",
+    "hashtags": "PrenzlauerBerg;Charlottenburg;24hPolizei",
+    "time": "20160527224959",
+    "id": 736328627466473473,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736328627466473473"
+  },
+  {
+    "bezirk": "AltTreptow",
+    "text": "Hupendes Taxi in #Treptow löst Notruf aus. Koll. vor Ort konnten kein Taxi mehr feststellen.  #24hPolizei",
+    "hashtags": "Treptow;24hPolizei",
+    "time": "20160527224834",
+    "id": 736328269394513921,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736328269394513921"
+  },
+  {
+    "bezirk": "Tempelhof",
+    "text": "Taschenlampenschein in einer Schule in #Tempelhof-Schöneberg. Wir kontrollieren das. #24hPolizei",
+    "hashtags": "Tempelhof;24hPolizei",
+    "time": "20160527224517",
+    "id": 736327445335412737,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736327445335412737"
+  },
+  {
+    "bezirk": "Mitte",
+    "text": "Wutausbruch in #Mitte? Ein Mann schlägt gegen Wände und zerstört Gegenstände. #24hPolizei",
+    "hashtags": "Mitte;24hPolizei",
+    "time": "20160527224504",
+    "id": 736327388196417537,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736327388196417537"
+  },
+  {
+    "bezirk": "",
+    "text": "Ein Einsatzwagen meldet sich kurz zum Tanken ab. #Das_muss_auch_mal_sein. #24hPolizei",
+    "hashtags": "Das_muss_auch_mal_sein;24hPolizei",
+    "time": "20160527224429",
+    "id": 736327243878834176,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736327243878834176"
+  },
+  {
+    "bezirk": "Neukoelln",
+    "text": "Tatort #Neukölln: Anrufer vermisst seine Tasche wo \"immer alles drin ist\". Sie stand \"immer im Flur\". Nu isse weg. Wo isse hin? #24hPolizei",
+    "hashtags": "Neukölln;24hPolizei",
+    "time": "20160527224333",
+    "id": 736327005621354497,
+    "url": "https://twitter.com/PolizeiBerlin_E/status/736327005621354497"
+  },
+  {
     "bezirk": "Pankow",
     "text": "Straßenmusikanten in #Pankow spielen auf der Straße laute Lieder. Zu laut für die Anwohner. #24hPolizei",
     "hashtags": "Pankow;24hPolizei",
@@ -2552,7 +2640,7 @@
     "url": "https://twitter.com/PolizeiBerlin_E/status/723958164505415681"
   },
   {
-    "bezirk": "",
+    "bezirk": "Kreuzberg",
     "text": "10 Personen schlagen sich mit Messern in #XBerg #24hPolizei",
     "hashtags": "XBerg;24hPolizei",
     "time": "20160423193355",
