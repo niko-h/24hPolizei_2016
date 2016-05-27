@@ -19,18 +19,14 @@
             #tweets .listWrapper{ overflow-y:auto; max-height:80vh;margin-top: 1em;}
             #tweets > div > ul > li { border: 1px solid #333; margin-top: 0.5em; padding: 0.5em; border-radius: 0.3em;list-style-type: none;}
             a { text-decoration: none; }
-            #socialshareprivacy > ul > li.settings_info.down{display:none;}
             polygon{fill:transparent;cursor:pointer;}
-            ul{ margin:0px;}
+            ul{ margin:0;}
             svg{max-height: 90%;max-width: 100%;}
             #title{ display: inline; }
             #num{ float: right;}
             @media only screen and (max-width: 767px) {
                 #tweets .listWrapper{
                     max-height:80%;
-                }
-                #socialshareprivacy{
-                    display:none;
                 }
             }
 
@@ -65,13 +61,6 @@
                 </div>
             </div>
 
-            <div style="position:fixed;bottom:-1.1em;right:0px;padding-right:142px;background: white;width:100%;">
-                <div id="socialshareprivacy" style="float:right;"></div>
-                <div style="position:fixed; bottom:0em; right:0em;">
-                    <a href="mailto:lb@bombenlabor.de"><img src="lb.png" /></a>
-                </div>
-
-            </div>
         </div>
     </div>
 
@@ -82,32 +71,10 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.6.0/moment.min.js"></script>
 
-    <script type="text/javascript" src="js/jquery.socialshareprivacy.min.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function($){
-            if($('#socialshareprivacy').length > 0){
-                $('#socialshareprivacy').socialSharePrivacy({
-                                                                services : {
-                                                                    facebook : {
-                                                                        'status' : 'on'
-                                                                    }
-                                                                },
-                                                                "alignment": "horizontal",
-                                                                "switch_alignment":"right",
-                                                                "css_path"  : "css/socialshareprivacy.css",
-                                                                "lang_path" : "socialshareprivacy/lang/",
-                                                                "language"  : "de",
-                                                                'cookie_domain' : 'lb.bomenlabor.de'
-                                                            });
-            }
-        });
-    </script>
-
-
     <script>
         Number.prototype.map = function ( in_min , in_max , out_min , out_max ) {
             return ( this - in_min ) * ( out_max - out_min ) / ( in_max - in_min ) + out_min;
-        }
+        };
 
         String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
 
@@ -233,7 +200,7 @@
                 paint_map(result_tweets);
                 render_tweets(result_tweets);
             }
-        };
+        }
 
         function filter_tweets_by_bezirk( bezirk ){
             var result_tweets = [];
