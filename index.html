@@ -3,7 +3,7 @@
 <head>
     <title>#24hPolizei - 2016 - @lbenedix</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="css/kube.min.css" />
     <style type="text/css">
             /* CSS Mini Reset http://www.vcarrer.com/2010/05/css-mini-reset.html */
@@ -273,9 +273,18 @@
                     });
 
                     /* get bezirk from url hash */
-                    var active_bezirk = window.location.hash.replace("#", "");
+                    var hashtag = window.location.hash.replace("#", "");
+                    var active_bezirk = '';
+                    var search_term = '';
+                    if(hashtag.startsWith('q=')){
+                        search_term = hashtag.replace('q=', '');
+                        console.log(search_term);
+                        search(search_term);
+                        $('#search_input').val(search_term);
+                    }
                     /* click this bezirk */
-                    if(active_bezirk.length>0){
+                    else if(hashtag.length>0){
+                        active_bezirk = hashtag;
                         $('#'+active_bezirk ).click();
                     }
                 });
@@ -283,20 +292,20 @@
         });
 
 
-        window.addEventListener("popstate", function(e) {
-            if( window.location.hash.length > 0){
-                $( window.location.hash ).click();
-            }else{
-                paint_map(tweets);
-                if( $('#search_input' ).val().length == 0 ){
-                    console.log('popstate');
-                    $('#info' ).show();
-                    $('#tweets ul').html('');
-                    $('#title' ).html('&nbsp;');
-                    $('#num' ).html('&nbsp;');
-                }
-            }
-        });
+//        window.addEventListener("popstate", function(e) {
+//            if( window.location.hash.length > 0){
+//                $( window.location.hash ).click();
+//            }else{
+//                paint_map(tweets);
+//                if( $('#search_input' ).val().length == 0 ){
+//                    console.log('popstate');
+//                    $('#info' ).show();
+//                    $('#tweets ul').html('');
+//                    $('#title' ).html('&nbsp;');
+//                    $('#num' ).html('&nbsp;');
+//                }
+//            }
+//        });
     </script>
 
 </body>
