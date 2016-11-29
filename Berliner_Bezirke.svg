@@ -226,7 +226,7 @@
         <text transform="matrix(1 0 0 1 560.8867 377.5002)">BERG</text>
         <text transform="matrix(1 0 0 1 650 391.0002)">HELLERSDORF</text>
         <text transform="matrix(1 0 0 1 589.1133 549.0002)">TREPTOW-KÖPENICK</text>
-        <text transform="matrix(1 0 0 1 482.4453 499.5002)"><tspan>NEU-</tspan><tspan x="-7.996" y="38.4">KÖLLN</tspan></text>
+        <text transform="matrix(1 0 0 1 482.4453 499.5002)"><tspan>NEU-<br>KÖLLN</tspan></text>
         <text transform="matrix(1 0 0 1 388.6094 537.0002)"><tspan>SCHÖNE-</tspan><tspan x="13.777" y="19.2">BERG</tspan></text>
         <text transform="matrix(1 0 0 1 415.1123 408.0002)" id="frkr">FRIEDRICHSHAIN-<tspan x="14.054" y="13.2">KREUZBERG</tspan></text>
     </g>
